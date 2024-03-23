@@ -44,3 +44,8 @@
         </div>
     </section>
 </template>
+
+<script setup>
+const a = reactive({});
+console.log(a);
+</script>

@@ -20,6 +20,8 @@ import sass from "~/assets/logo/sass.svg";
 import webpack from "~/assets/logo/webpack.png";
 import gulp from "~/assets/logo/gulp.jpg";
 import axios from "~/assets/logo/axios.svg";
+import php from "~/assets/logo/php.png";
+import laravel from "~/assets/logo/laravel.svg";
 import htmlCert from "~/assets/certificates/html-cert.png";
 import cssCert from "~/assets/certificates/css-cert.png";
 import jsCertSam from "~/assets/certificates/js-cert-sam.png";
@@ -177,6 +179,18 @@ export const usePortfolioStore = defineStore("portfolio", () => {
             src: axios,
             title: "Axios",
             style: "shadow-blue-800"
+        },
+        {
+            id: 19,
+            src: php,
+            title: "PHP",
+            style: "shadow-blue-800"
+        },
+        {
+            id: 20,
+            src: laravel,
+            title: "Laravel",
+            style: "shadow-red-500"
         }
     ]);
 
