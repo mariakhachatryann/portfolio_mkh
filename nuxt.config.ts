@@ -7,6 +7,17 @@ export default defineNuxtConfig({
           autoprefixer: {},
       },
   },
+  nitro: {
+    preset: 'vercel',
+  },
+    build: {
+    transpile: ['lib'], // Replace 'lib' with the actual package name if different
+  },
+  vite: {
+    optimizeDeps: {
+      include: ['lib'], // Replace 'lib' with the actual package name
+    },
+  },
   // image: {
   //     dir: "assets"
   // }

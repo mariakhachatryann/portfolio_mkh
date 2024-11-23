@@ -17,7 +17,7 @@
             </a>
         </div>
 
-        <p class="md:order-2">• Copyright ©2023 | All rights reserved • </p>
+        <p class="md:order-2">• Copyright ©2024 | All rights reserved • </p>
         <p>@mariakhachatryann</p>
     </footer>
 </template>

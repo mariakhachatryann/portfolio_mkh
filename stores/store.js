@@ -22,6 +22,7 @@ import gulp from "~/assets/logo/gulp.jpg";
 import axios from "~/assets/logo/axios.svg";
 import php from "~/assets/logo/php.png";
 import laravel from "~/assets/logo/laravel.svg";
+import yii2 from "~/assets/logo/yii2.png";
 import htmlCert from "~/assets/certificates/html-cert.png";
 import cssCert from "~/assets/certificates/css-cert.png";
 import jsCertSam from "~/assets/certificates/js-cert-sam.png";
@@ -191,6 +192,12 @@ export const usePortfolioStore = defineStore("portfolio", () => {
             src: laravel,
             title: "Laravel",
             style: "shadow-red-500"
+        },
+        {
+            id: 21,
+            src: yii2,
+            title: "YII2",
+            style: "shadow-orange-500"
         }
     ]);
 
